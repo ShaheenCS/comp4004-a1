@@ -5,14 +5,14 @@ import junit.framework.TestCase;
 public class cardTest extends TestCase {
 	
 	public void testSuit(){
-		assertEquals(true, new Card("",""));
+		assertEquals(true, new Card(10,12).isSuit(3));
 	}
 	
-	public testRank(){
-		assertEquals(true, new Card("",""));
+	public void testRank(){
+		assertEquals(true, new Card(2,11).isRank(6));
 	}
 	
-	public testEquals(){
-		assertEquas(true, new Card("","").equals(new Card("","")));
+	public void testEquals(){
+		assertEquals(0, new Card(5,10).Equals(new Card(5,10)));
 	}
 }
