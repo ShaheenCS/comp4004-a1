@@ -1,30 +1,33 @@
 package core;
 
 public class Card implements Comparable<Card>
-{
-	  
-		public int suit;
-		public int rank;
+{ 
+		private Suit suit;
+		private Rank rank;
 		
-		public Card(int suit, int rank){
+		public Card(Rank rank, Suit suit){
 			this.suit = suit;
 			this.rank = rank;
 		}
 		
-		public int getSuit() {
+		public Suit getSuit() {
 			return suit;
 		}
 
-		public void setSuit(int suit) {
+		public void setSuit(Suit suit) {
 			this.suit = suit;
 		}
 
-		public int getRank() {
+		public Rank getRank() {
 			return rank;
 		}
 
-		public void setRank(int rank) {
+		public void setRank(Rank rank) {
 			this.rank = rank;
+		}
+		
+		public String toString(){
+			return suit + " " + rank;
 		}
 
 		public int Equals(Card c) 
