@@ -27,11 +27,11 @@ public class Card implements Comparable<Card>
 			this.rank = rank;
 		}
 
-		public int Equals(Card o) 
+		public int Equals(Card c) 
 		{
-		     if (this.rank == (o.rank))
+		     if (this.rank == (c.rank))
 		            return 0;
-		     else if ((this.rank) > (o.rank))
+		     else if ((this.rank) > (c.rank))
 		            return 1;
 		     else
 		           return -1;
@@ -49,7 +49,7 @@ public class Card implements Comparable<Card>
 			return false;
 		}
 
-		public int compareTo(Card o) {
+		public int compareTo(Card c) {
 			// TODO Auto-generated method stub
 			return 0;
 		}

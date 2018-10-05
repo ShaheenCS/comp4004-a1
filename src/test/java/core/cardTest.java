@@ -35,3 +35,5 @@ public class cardTest extends TestCase {
 		assertEquals(1, new Card(5,10).Equals(new Card(10,5)));
 	}
 }
+
+
