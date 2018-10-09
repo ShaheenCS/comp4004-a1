@@ -47,7 +47,7 @@ public class ScoreofEachCard {
     private TypeofHand tabScore() {
         /**
          * this is a boilerplate method to find score of a hand and determine a
-         * winner in non-tiebreaking instances
+         * winner in non-tie instances
          */
         
         if (checkRoyalFlush()) {

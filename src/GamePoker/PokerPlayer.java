@@ -9,7 +9,7 @@ public final class PokerPlayer implements Player {
     private final String name; // name of player
     private final Hand playerHand; // the hand a player owns
     private final int money; // how much money they possess
-    private final String card; // how many card they possess
+    private final String card; // which card they possess
 
     // constructor for Player class
      
